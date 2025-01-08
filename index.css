@@ -1,0 +1,87 @@
+
+body {
+    margin: 0;
+}
+
+#title {
+    text-align: center;
+    margin: 85px auto 0px;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 1px solid #4B5563;
+    width: 500px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: #4B5563;
+    color: #FB7185;
+}
+
+@font-face {
+  font-family: cursedTimer;
+  src: url(Cursed.ttf);
+}
+
+.container {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    height: 385px;
+    width: 575px;
+    background-color: #1B244A;
+    border-radius: 20px;
+    
+}
+
+.container-sub {
+    text-align: center;
+    margin: 25px auto 0px;
+    height: 300px;
+    width: 155px
+}
+
+.points {
+    margin: 10px auto 0px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-evenly
+}
+
+
+h3{
+    margin: 40px auto 0px;
+    font-size: 50px;
+    color: #EEEEEE;
+    
+
+}
+
+h4{
+    margin: 0px;
+    font-size: 55px;
+}
+
+button {
+    margin: 20px auto 0px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    padding: 10px 12px;
+    font-size: 16px;
+    color: #9AABD8;
+    background-color: #1B244A;
+}
+
+.reset {
+    margin-top: 180px;
+}
+
+.score{
+    font-size: 90px;
+    margin: 15px auto;
+    border: 2px solid black;
+    width: 155px;
+    color: red;
+    font-family: cursedTimer;
+    background-color: black;
+
+}
